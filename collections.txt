@@ -140,9 +140,9 @@ class product
 			for(Employee employee : treeSet)
 			{
 				System.out.println("Employee Name:" + employee.getName());
-				System.out.println("Employee Id:" + employee.getName());
-				System.out.println("Employee Age:" + employee.getName());
-				System.out.println("Employee Salary:" + employee.getName());
+				System.out.println("Employee Id:" + employee.getId());
+				System.out.println("Employee Age:" + employee.getDept());
+				System.out.println("Employee Salary:" + employee.getSalary());
 				
 			}
 			
